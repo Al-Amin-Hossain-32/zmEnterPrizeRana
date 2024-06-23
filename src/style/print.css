@@ -1,0 +1,35 @@
+/* .invoiceDetails{
+    max-width: 2480px;
+    max-height: 3508px;
+} */
+ .main-invoice{
+    position: relative;
+    width: 756px;
+    height: 180mm;
+    margin-left: 5mm;
+    /* border: 1px solid ; */
+    padding:0px 12px;
+    background-color: #fff;
+ }
+
+ .main-invoice::after{
+    position: absolute;
+    content: '';
+    width: 760px;
+    height: 155px;
+    bottom: -2px;
+    left: -2px;
+    z-index: -1;
+    background-color: #494848;
+ }
+
+ .main-invoice::before{
+    position: absolute;
+    content: '';
+    width: 760px;
+    height: 485px;
+    top: -2px;
+    left: -2px;
+    z-index: -1;
+    background-color: #000000;
+}

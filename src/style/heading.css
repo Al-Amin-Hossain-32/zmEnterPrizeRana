@@ -1,0 +1,17 @@
+.heading-container{
+    width: 184mm;
+    font-family: "Roboto", sans-serif;
+}
+
+.heading{
+   text-align: center;
+   width: 100mm;
+   padding-left: 6rem;
+}
+
+.barcode{
+    text-align: right;
+    width: 100mm;
+    
+   
+}

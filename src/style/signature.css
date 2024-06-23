@@ -1,0 +1,7 @@
+.customer,.serviceCenter{
+    padding: 1rem .5rem;
+}
+
+.customer p ,.serviceCenter p{
+    margin-top: 3rem;
+}

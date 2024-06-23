@@ -1,0 +1,17 @@
+.borderd-table .colorTable td{
+    background-color: #bfe1ff;
+    
+  }
+  .borderd-table tr,td{
+    border: 0.115rem solid;
+    
+    font-weight: 500;
+  }
+
+  .borderd-table .cash td{
+    padding: 4px !important;
+   
+  }
+  .main-product{
+    padding: 0px 16px;
+  }
