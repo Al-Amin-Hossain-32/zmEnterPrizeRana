@@ -30,7 +30,7 @@ function App(props) {
   const paymentTimeGenarate=()=>{
     const time = new Date()
   const year = time.getFullYear();
-  const month = time.getMonth();
+  const month = time.getMonth()+1;
   const date = time.getDate();
   const hour = time.getHours();
   const minute = time.getMinutes();
@@ -43,7 +43,7 @@ function App(props) {
   const jobSheetOrderGenarator=()=>{
     const time = new Date()
   const year = time.getFullYear();
-  const month = time.getMonth();
+  const month = time.getMonth() +1;
   const date = time.getDate();
  
     const jobOrder = `BDJS${year}${month<10 ? '0'+month : month}${date<10 ? '0'+date : date}`;
@@ -52,11 +52,13 @@ function App(props) {
   const  genarateBarcodeNumber =()=>{
     const time = new Date()
   const year = time.getFullYear();
-  const month = time.getMonth();
+  const month = time.getMonth() +1;
   const date = time.getDate();
  
     const barcode = `BDPAY${year}${month<10 ? '0'+month : month}${date<10 ? '0'+date : date}`;
+    
   return barcode
+  
   }
   
   const intCustomer = {
